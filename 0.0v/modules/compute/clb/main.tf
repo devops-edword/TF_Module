@@ -1,4 +1,4 @@
-resource "aws_elb" "cloud-vpc01-clb" {
+resource "aws_elb" "clb" {
   name    = var.clb-name
   subnets = [var.sub-01-id, var.sub-02-id]
 
