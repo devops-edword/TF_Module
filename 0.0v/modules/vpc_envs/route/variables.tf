@@ -10,7 +10,13 @@ variable "any-cidr" {
 }
 
 
+variable "igw-id" {
+  type = string
+  default = null
+}
+
+
 variable "natgw-id" {
   type = string
-  default = ""
+  default = null
 }
