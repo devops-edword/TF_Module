@@ -1,4 +1,4 @@
-variable "rtb-pri-id" {
+variable "rtb-id" {
   type = string
   default = ""
 }

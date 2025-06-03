@@ -1,5 +1,5 @@
 resource "aws_route" "rtb_pri01-route-natgw" {
-  route_table_id         = var.rtb-pri-id
+  route_table_id         = var.rtb-id
   destination_cidr_block = var.any-cidr
 
 
