@@ -7,29 +7,12 @@ variable "any-cidr" {
 }
 
 
-
-
-
-variable "rtb-pri-id" {
-  type = string
-
-
-  default = ""
-}
-
-
-
-
-
 variable "eip-id" {
   type = string
 
 
   default = ""
 }
-
-
-
 
 
 variable "sub-pri-id" {
@@ -40,19 +23,7 @@ variable "sub-pri-id" {
 }
 
 
-
-
-
 variable "natgw-name" {
   type    = string
   default = ""
-}
-
-
-
-
-
-### Locals
-locals {
-  natgw-id = aws_nat_gateway.natgw.id
 }
