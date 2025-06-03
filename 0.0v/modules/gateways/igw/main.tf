@@ -5,3 +5,9 @@ resource "aws_internet_gateway" "igw" {
     Name = var.igw-name
   }
 }
+
+
+resource "aws_internet_gateway_attachment" "igw_attach" {
+  internet_gateway_id = aws_internet_gateway.igw
+  vpc_id = var.vpc-id
+}

@@ -1,10 +1,4 @@
-variable "rtb-pri01-id" {
-  type = string
-  default = ""
-}
-
-
-variable "rtb-pri02-id" {
+variable "rtb-pri-id" {
   type = string
   default = ""
 }
@@ -16,13 +10,7 @@ variable "any-cidr" {
 }
 
 
-variable "natgw-01-id" {
-  type = string
-  default = ""
-}
-
-
-variable "natgw-02-id" {
+variable "natgw-id" {
   type = string
   default = ""
 }
