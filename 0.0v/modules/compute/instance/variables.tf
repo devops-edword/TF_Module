@@ -53,3 +53,10 @@ variable "instance-name" {
 
   default = ""
 }
+
+
+variable "user-data" {
+  description = "The user data to provide when launching the instance."
+  type        = string
+  default     = null
+}

@@ -9,6 +9,8 @@ resource "aws_instance" "instance" {
     var.sg-id
   ]
 
+  user_data = var.user-data
+
   tags = {
     Name = var.instance-name
   }
