@@ -21,6 +21,6 @@ output "sg-web-id" {
 }
 
 
-output "sg-vpc01-db-id" {
+output "sg-db-id" {
   value = aws_security_group.sg-db.id
 }
