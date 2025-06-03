@@ -10,18 +10,7 @@ variable "any-cidr" {
 
 
 
-variable "rtb-pri01-id" {
-  type = string
-
-
-  default = ""
-}
-
-
-
-
-
-variable "rtb-pri02-id" {
+variable "rtb-pri-id" {
   type = string
 
 
